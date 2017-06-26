@@ -12,7 +12,7 @@ $(document).ready(function(){
 
   $('body').on('click', '#swap', function(){
     console.log('clicked swap');
-    $(this).parent().css('background-color', 'yellow');
+    $(this).parent().toggleClass('yellow');
   });
 
   $('body').on('click', '#delete', function(){
